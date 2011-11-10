@@ -27,7 +27,6 @@
 		<cfargument name="event" type="any" required="true" />
 		<cfset var local = structnew() />
 		<cfset var blog = request.blogManager.getBlog() />
-		<cftry>
 		<cfif  arguments.event.name is "mainNav">
 			<cfset local.link = structnew() />
 			<cfset local.link.owner = "recentcomments">
@@ -53,10 +52,6 @@
 			<cfset data.message.setTitle("Comments") />
 			<cfset data.message.setData(page) />
 		</cfif>
-		<cfcatch>
-			<cfdump var="#cfcatch#"><cfabort>
-		</cfcatch>
-		</cftry>
 		<cfreturn arguments.event />
 		
 	</cffunction>
