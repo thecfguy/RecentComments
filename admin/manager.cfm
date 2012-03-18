@@ -1,5 +1,4 @@
 <cfoutput>
-<cfimport prefix="mangoAdmin" taglib="/admin/tags">
 <cfsilent>
 	<cfparam name="form.primaryAction" default="">
 	<cfparam name="form.editMode" default="false">

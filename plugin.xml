@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin id="com.thecfguy.mango.plugins.recentcomments" 
-name="Recent Comments" version="1.0" provider-name="Pritesh Patel" class="recentcomments.Handler">
+name="Recent Comments" version="1.1" provider-name="Pritesh Patel" class="recentcomments.Handler">
 <description><![CDATA[
 Plugin add additional link in admin menu view recent comments from reader to easily approve, delete or modify comments. 
 <br/>Created by <a href="http://www.thecfguy.com">Pritesh Patel</a>]]>
